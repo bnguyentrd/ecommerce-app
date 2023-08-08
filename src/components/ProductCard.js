@@ -36,6 +36,7 @@ const ProductCard = (props) => {
               edit={false}
               activeColor="#ffd700"
             />
+            <p className={`description ${grid === 3 ? "d-block" : "d-none"}`}>Brand new apple watch series 2</p>
             <p className="price">
               $100.00
             </p>
