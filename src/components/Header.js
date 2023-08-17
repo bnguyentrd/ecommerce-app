@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div className="col-6">
             <p className="text-end text-white mb-0">
-              Hotline: <a className="text-white" href="tel:+1 8881234444">+1 (800)123-4444</a>
+              Hotline: <a className="text-white" href="tel:+1 7147023112">(714)702-3112</a>
             </p>
           </div>
         </div>
@@ -44,25 +44,25 @@ const Header = () => {
           <div className="col-5">
             <div className="header-upper-links d-flex align-items-center justify-content-between">
               <div>
-                <Link className="d-flex align-items-center gap-10 text-white">
+                <Link to="/compare-product" className="d-flex align-items-center gap-10 text-white">
                 <img src="/images/compare.svg" alt="compare" />
                 <p className="mb-0">Compare <br /> Products</p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-10 text-white">
+                <Link to="/wishlist" className="d-flex align-items-center gap-10 text-white">
                 <img src="/images/wishlist.svg" alt="wishlist" />
                 <p className="mb-0">Favorite <br /> Wishlist</p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-10 text-white">
+                <Link to="/login" className="d-flex align-items-center gap-10 text-white">
                 <img src="/images/user.svg" alt="user" />
                 <p className="mb-0">Account <br /> Login</p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-10 text-white">
+                <Link to="/cart" className="d-flex align-items-center gap-10 text-white">
                 <img src="/images/cart.svg" alt="cart" />
                 <div className="d-flex flex-column gap-10">
                   <span className="badge bg-white text-dark">0</span>

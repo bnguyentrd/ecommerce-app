@@ -70,7 +70,7 @@ const Contact = () => {
                       <li className="mb-3 d-flex gap-15 align-items-center">
                         <AiOutlineHome className="fs-5" />
                         <address className="mb-0">
-                          123 Mallard dr Garden Grove, California 92843
+                          123 Mallard dr. Garden Grove, California 92843
                         </address>
                       </li>
                       <li className="mb-3 d-flex gap-15 align-items-center">
