@@ -15,7 +15,7 @@ const CompareProduct = () => {
                         <div className="compare-product-card position-relative">
                             <img src="images/cross.svg" alt="cross" className="position-absolute cross img-fluid" />
                             <div className="product-card-image">
-                                <img src="images/watch.jpg" alt="watch" />
+                                <img src="images/applewatch-1.png" alt="watch" />
                             </div>
                             <div className="compare-product-details">
                                 <h5 className="title">
@@ -54,7 +54,7 @@ const CompareProduct = () => {
                         <div className="compare-product-card position-relative">
                             <img src="images/cross.svg" alt="cross" className="position-absolute cross img-fluid" />
                             <div className="product-card-image">
-                                <img src="images/watch.jpg" alt="watch" />
+                                <img src="images/applewatch-1.png" alt="watch" />
                             </div>
                             <div className="compare-product-details">
                                 <h5 className="title">
